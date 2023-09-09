@@ -6,7 +6,7 @@ function Posts() {
   const postList = [
     {
       imgSource: require('../assets/images/post-1.jpg'),
-      caption: 'Grateful for this beautiful life and the amazing people in it.',
+      caption: 'rebel queen',
       user: {
         imgSource: require('../assets/images/avatar-5.jpg'),
         username: 'ms.teyzia',

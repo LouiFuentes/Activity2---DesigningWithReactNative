@@ -1,7 +1,7 @@
 import { View, Text, StyleSheet, Image } from 'react-native';
 import React from 'react';
 
-function Avatar({imgSource, isHasStory = false, size = 65}) {
+function Avatar({imgSource, isHasStory = false, size = 85}) {
   return (
     <View style={{...styles.container, width: size, height: size}}>
       {

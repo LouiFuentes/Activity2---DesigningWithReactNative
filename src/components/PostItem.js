@@ -46,13 +46,13 @@ function PostItem({item}) {
         </View>
       </View>
       <View style={styles.descriptionContainer}>
-        <Text style={styles.like}>100 likes</Text>
+        <Text style={styles.like}>Liked by itsmebelle_ _ _ and 38 others</Text>
         <Text style={styles.captionContainer}>
           <Text style={styles.username}>{item.user.username} </Text>
           {item.caption}
         </Text>
       </View>
-      <Text style={styles.commentCount}>View all 20 comments</Text>
+      <Text style={styles.commentCount}>View all 9 comments</Text>
       <Text style={styles.postCreated}>4 days ago</Text>
     </View>
   );
